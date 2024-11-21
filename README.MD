@@ -1,0 +1,1 @@
+Projeto desenvolvido para funcionar como um sistema de chamados internos, onde o usuário irá cadastrar o seu chamado e o setor responsável conseguirá visualizar e consultar os chamados para sulicioná-los posteriormente.
