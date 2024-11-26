@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Itim&family=Parkinsans:wght@300..800&display=swap');
-        </style>
+    </style>
     <title>Chamados Alfa Rodobus</title>
 </head>
 <body>
@@ -21,6 +21,26 @@
 
             <label for="funcionario">Nome do Funcionário (Nome + Primeiro Sobrenome, ex : João Silva):</label>
             <input type="text" id="funcionario" required>
+
+            <label for="setor">Setor:</label>
+            <select id="setor" required>
+                <option value="">Selecione um setor</option>
+                <option value="operacional">Operacional</option>
+                <option value="dp">Departamento Pessoal</option>
+                <option value="rh">Recursos Humanos</option>
+                <option value="ti">Tecnologia da Informação</option>
+                <option value="aquisicao">Aquisição</option>
+                <option value="segtrabalho">Segurança do Trabalho</option>
+                <option value="sgi">SGI</option>
+                <option value="manutencao">Manutenção</option>
+                <option value="financeiro">Financeiro</option>
+                <option value="juridico">Jurídico</option>
+                <option value="planejamento">Planejamento</option>
+                <option value="plantao">Plantão</option>
+                <option value="cco">CCO</option>
+                <option value="autopecas">Auto Peças</option>
+
+            </select>
 
             <label for="descricao">Descrição:</label>
             <textarea id="descricao" required></textarea>
