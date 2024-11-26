@@ -16,8 +16,16 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+h1 {
+    text-align: center;
+   
+}
+
 h1, h2 {
     color: #333;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 label {
@@ -34,7 +42,7 @@ input[type="text"], textarea {
 }
 
 button {
-    background-color: #5cb85c;
+    background-color: #e21c1c;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -43,6 +51,6 @@ button {
 }
 
 button:hover {
-    background-color: #4cae4c;
+    background-color: #061306;
 }
 
