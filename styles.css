@@ -68,3 +68,24 @@ button {
 button:hover {
     background-color: #3528f5; 
 }
+
+select#setor {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 16px; 
+    background-color: #fff; 
+    appearance: none; 
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"><polygon points="0,0 10,0 5,5" fill="%23333"/></svg>'); 
+    background-repeat: no-repeat; 
+    background-position: right 10px center; 
+    background-size: 10px; 
+    cursor: pointer; 
+}
+
+select#setor:focus {
+    border-color: #28a745; 
+    outline: none;
+}
